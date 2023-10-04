@@ -1,0 +1,6 @@
+Instalaciones npm:
+- Bootstrap
+- React Icons
+- Axios
+- React-Router-Dom
+- Sweet Alert 2
