@@ -213,3 +213,9 @@
         right: 5.5%;
     }
 }
+
+@media (max-width: 415px){
+    .FormularioRegister .form-control{
+        width: 300px;
+    }
+}
