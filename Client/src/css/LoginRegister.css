@@ -147,9 +147,17 @@
     gap: 20px;
 }
 
+.Correo{
+    grid-column: 1 / 3;
+}
+
+.Correo .form-control{
+    width: 100%;
+}
+
 .iconPasswordCreate{
     position: absolute;
-    top: 58.9%;
+    top: 67.5%;
     right: 3%;
     transform: translate(-100%, -100%);
 }
@@ -174,12 +182,16 @@
         width: 240px;
     }
 
+    .Correo .form-control{
+        width: 100%;
+    }
+
     .ButtonRegister{
         grid-column: 1 / 3;
     }
 
     .iconPasswordCreate{
-        top: 59.2%;
+        top: 67.2%;
         right: 3.5%;
     }
 }
@@ -188,28 +200,43 @@
     .FormularioRegister .form-control{
         width: 200px;
     }
+
+    .Correo .form-control{
+        width: 100%;
+    }
 }
 
 @media (max-width: 560px){
+    .LoginRegister .FormularioRegister{
+        gap: 0;
+    }
+
     .LoginRegister h2{
         font-size: 22px;
     }
 
     .FormularioRegister .form-control{
-        width: 350px;
+        width: 390px;
     }
 
-    .LoginRegister .FormularioRegister{
-        grid-template-columns: auto;
-        gap: 0;
-    }
-
+    .Nombre, 
+    .Apellido, 
+    .Correo, 
     .ButtonRegister{
-        grid-column: 1;
+        grid-column: 1 / 3;
+    }
+
+    .Contrasena{
+        margin-left: 20px;
+    }
+
+    .Contrasena .form-control,
+    .Usuario .form-control{
+        width: 100%;
     }
 
     .iconPasswordCreate{
-        top: 56.5%;
+        top: 72%;
         right: 5.5%;
     }
 }
