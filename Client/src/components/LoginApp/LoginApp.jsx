@@ -37,7 +37,7 @@ export function LoginApp() {
                         onClick={AlternarContrasenaVisibilidad}
                     />
                 </Form.Group>
-                <Button className="btn Button">Ingresar</Button>
+                <Button className="btn ButtonLogin">Ingresar</Button>
             </Form>
             <p className="TextAccount">No tienes cuenta 
                 <Link to='/Registrate'>Regístrate</Link>
