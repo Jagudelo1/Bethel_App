@@ -14,6 +14,7 @@ export function RegisterApp() {
 
     return(
         <div className="LoginRegister">
+            <h2>Registrar Administrador</h2>
             <Form className="FormularioRegister">
                 <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                     <Form.Label>Nombre</Form.Label>

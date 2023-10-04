@@ -149,7 +149,7 @@
 
 .iconPasswordCreate{
     position: absolute;
-    top: 52.5%;
+    top: 58.9%;
     right: 3%;
     transform: translate(-100%, -100%);
 }
@@ -179,7 +179,7 @@
     }
 
     .iconPasswordCreate{
-        top: 52.6%;
+        top: 59.2%;
         right: 3.5%;
     }
 }
@@ -191,12 +191,17 @@
 }
 
 @media (max-width: 560px){
+    .LoginRegister h2{
+        font-size: 22px;
+    }
+
     .FormularioRegister .form-control{
-        width: 300px;
+        width: 350px;
     }
 
     .LoginRegister .FormularioRegister{
         grid-template-columns: auto;
+        gap: 0;
     }
 
     .ButtonRegister{
@@ -204,7 +209,7 @@
     }
 
     .iconPasswordCreate{
-        top: 51.6%;
+        top: 56.5%;
         right: 5.5%;
     }
 }
