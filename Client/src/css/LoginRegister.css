@@ -105,11 +105,10 @@
 @media (max-width: 700px){
     .iconPassword{
         position: absolute;
-        top: 66.8%;
+        top: 66.5%;
         right: 5%;
         transform: translate(-100%, -100%);
     }
-
 }
 
 @media (max-width: 375px){
@@ -121,7 +120,6 @@
         top: 66.4%;
         right: 5%;
     }
-
 }
 
 /* <----- Estilos para la página de Registro -----> */
