@@ -28,7 +28,9 @@
     }
 }
 
-/* <----- Estilos para la página del Login -----> */
+
+
+/* <--------------- Estilos para la página del Login ---------------> */
 .LoginRegister h2{
     font-weight: 900;
     text-transform: uppercase;
@@ -136,7 +138,9 @@
     }
 }
 
-/* <----- Estilos para la página de Registro -----> */
+
+
+/* <--------------- Estilos para la página de Registro ---------------> */
 .LoginRegister .FormularioRegister{
     display: grid;
     grid-template-columns: auto auto;
@@ -165,7 +169,32 @@
 }
 
 /* Responsive Register */
-@media (max-width: 740px){
+@media (max-width: 730px){
+    .FormularioRegister .form-control{
+        width: 240px;
+    }
+
+    .ButtonRegister{
+        grid-column: 1 / 3;
+    }
+
+    .iconPasswordCreate{
+        top: 52.6%;
+        right: 3.5%;
+    }
+}
+
+@media (max-width: 620px){
+    .FormularioRegister .form-control{
+        width: 200px;
+    }
+}
+
+@media (max-width: 560px){
+    .FormularioRegister .form-control{
+        width: 300px;
+    }
+
     .LoginRegister .FormularioRegister{
         grid-template-columns: auto;
     }
@@ -175,9 +204,7 @@
     }
 
     .iconPasswordCreate{
-        position: absolute;
         top: 51.6%;
-        right: 5%;
-        transform: translate(-100%, -100%);
+        right: 5.5%;
     }
 }
