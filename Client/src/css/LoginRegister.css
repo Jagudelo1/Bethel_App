@@ -54,12 +54,6 @@
 }
 
 /* Estilos compartidos con LoginApp.jsx y RegisterApp.jsx */
-.FormularioLogin .form-control:focus,
-.FormularioRegister .form-control:focus{
-    outline: none;
-    border: 0;
-}
-
 .iconPassword{
     position: absolute;
     top: 67%;
@@ -138,8 +132,6 @@
     }
 }
 
-
-
 /* <--------------- Estilos para la página de Registro ---------------> */
 .LoginRegister .FormularioRegister{
     display: grid;
@@ -160,6 +152,12 @@
     top: 67.5%;
     right: 3%;
     transform: translate(-100%, -100%);
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.iconPasswordCreate:hover{
+    color: rgb(92, 92, 92);
 }
 
 .ButtonRegister{
