@@ -1,6 +1,10 @@
-Instalaciones npm:
+Instalaciones npm FRONT:
 - Bootstrap
 - React Icons
 - Axios
 - React-Router-Dom
 - Sweet Alert 2
+
+Instalaciones npm BACK:
+- npm init
+- npm install mysql express
