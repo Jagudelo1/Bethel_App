@@ -1,12 +1,4 @@
-.App {
-    text-align: center;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-  
+/* -----> Estilos para la pantalla de carga... <----- */
 .loading-screen {
     display: flex;
     justify-content: center;
@@ -32,4 +24,71 @@
 @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
+}
+
+/* -----> Estilo para centrar el contenedor principal <----- */
+.ContainerHomeApp{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 5px 5px black;
+    padding: 70px 60px;
+    border-radius: 18px;
+    font-family: 'Bree Serif', serif !important;
+}
+
+/* -----> Estilos para el titulo principal <----- */
+.ContainerHomeApp h2{
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+/* -----> Estilos para el input del formulario de Login <----- */
+.FormLogin .form-control{
+    width: 280px;
+}
+
+/* -----> Estilo para el icono de mostrar/ocultar contraseña <----- */
+.IconPassword{
+    position: absolute;
+    top: 57.7%;
+    right: 15%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    cursor: pointer;
+    transition: all .3s ease-in;
+}
+
+.IconPassword:hover{
+    color: red;
+}
+
+.ContainerHomeApp p{
+    margin-top: 15px;
+}
+
+.ContainerHomeApp p a{
+    text-decoration: none;
+    color: #000;
+    transition: all .2s ease-in-out;
+}
+
+.ContainerHomeApp p a:hover{
+    color: rgb(114, 114, 114);
+}
+
+.ButtonSesión{
+    display: block !important;
+    margin: 0 auto !important;
+    border: 0 !important;
+    background-color: blue !important;
+    transition: all .3s ease-in-out;
+}
+
+.ButtonSesión:hover{
+    background-color: rgb(54, 54, 255) !important;
+    color: #000 !important;
 }

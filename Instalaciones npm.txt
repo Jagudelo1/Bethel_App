@@ -4,6 +4,7 @@ Instalaciones npm FRONT:
 - Axios
 - React-Router-Dom
 - Sweet Alert 2
+- sweetalert2-react-content
 
 Instalaciones npm BACK:
 - npm init

@@ -1,0 +1,67 @@
+.ContentFormRegister{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 5px 5px black;
+    border-radius: 12px;
+    padding: 40px 30px;
+    font-family: 'Bree Serif', serif !important;
+}
+
+.ContentFormRegister h2{
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.Row{
+    display: grid !important;
+    grid-template-columns: auto auto;
+}
+
+.IconPasswordR{
+    position: absolute;
+    top: 67%;
+    right: 3.5%;
+    transform: translate(-50%, -50%);
+    color: red;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+}
+
+.IconPasswordR:hover{
+    transition: all .5s ease-in-out;
+    color: #000;
+}
+
+.ButtonRegister{
+    display: block !important;
+    margin: 0 auto !important;
+    border: 0 !important;
+    background-color: blue !important;
+    transition: all .3s ease-in-out;
+}
+
+.ButtonRegister:hover{
+    background-color: rgb(54, 54, 255) !important;
+    color: #000 !important;
+}
+
+.Message{
+    margin-top: 20px;
+}
+
+.Message .LinkLogin{
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    transition: all .5s ease-in;
+    margin-left: 3px;
+}
+
+.Message .LinkLogin:hover{
+    color: rgb(103, 103, 103);
+}
