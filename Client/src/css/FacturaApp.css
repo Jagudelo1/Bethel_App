@@ -91,12 +91,32 @@ body{
 /* -----> Estilos para el componente de VerFacturas.jsx <----- */
 .TableContentFact{
     font-family: 'Bree Serif', serif !important;
+    padding: 40px;
 }
 
 .TableContentFact h2{
     text-align: center;
     font-weight: 700;
     margin: 20px 0;
+}
+
+.TableContentFact table thead tr,
+.TableContentFact table tbody tr{
+    text-align: center;
+}
+
+.ButtonVer{
+    display: block !important;
+    margin: 0 auto !important;
+    border: 0 !important;
+    background-color: blue !important;
+    transition: all .3s ease-in-out;
+    font-family: 'Bree Serif', serif !important;
+}
+
+.ButtonVer:hover{
+    background-color: rgb(54, 54, 255) !important;
+    color: #000 !important;
 }
 
 .modal-body .form-label{

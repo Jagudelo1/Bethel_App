@@ -61,7 +61,7 @@ export function FacturaImp() {
                     </div>
                 </div>
                 <div className="Header4">
-                    <Table bordered >
+                    <Table bordered className="TableFact" >
                         <thead className="custom-thead">
                             <tr>
                                 <th className="th">Cantidad</th>

@@ -124,10 +124,9 @@ export function VerFacturas() {
                     </div>
                     <div className='TableContentFact'>
                         <h2>Facturas Creadas</h2>
-                        <Table>
+                        <Table bordered striped>
                             <thead>
                                 <tr>
-                                    <th>#</th>
                                     <th>Seleccionar</th>
                                     <th>Fecha</th>
                                     <th>Cliente</th>
@@ -140,7 +139,6 @@ export function VerFacturas() {
                             </thead>
                             <tbody>{facturasC.map((factura)=>(
                                     <tr key={factura.id_fact}>
-                                        <td>{factura.id_fact}</td>
                                         <td><input 
                                                 type="checkbox" 
                                                 onChange={() => handleFacturaSeleccionada(factura.id_fact)} 
@@ -157,8 +155,8 @@ export function VerFacturas() {
                                     </tr>
                             ))}</tbody>
                         </Table>
-                        <Button variant="primary" onClick={handleShow}>
-                            Ver Factura
+                        <Button className="ButtonVer" variant="primary" onClick={handleShow}>
+                            Imprimir Factura
                         </Button>
 
                     </div>
